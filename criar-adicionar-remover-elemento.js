@@ -1,6 +1,6 @@
 // Criar o elemento FAKE (ainda nao existe na pagina HTML, só na memoria)
 
-// Seleciona o elemento
+// Seleciona o elemento onde quer inserir o elemento FAKE
 
 let elementoSelecionado = document.querySelector(".box-login");
 console.log(elementoSelecionado);
@@ -10,7 +10,7 @@ console.log(elementoSelecionado);
 let elementoFake = document.createElement("h1");
 console.log(elementoFake); 
 
-// Coloca conteudo no elemento 
+// Coloca conteudo no elemento FAKE
 
 elementoFake.textContent = "Eu sou um h1 fake por enquanto";
 console.log(elementoFake);

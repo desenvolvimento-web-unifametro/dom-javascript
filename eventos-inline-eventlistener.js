@@ -43,11 +43,22 @@ function nomeDaFuncao() {
 
 // mudar a cor do background - addEventListener
 
+// selecionar o elemento
 // const elementoSelecionado = document.querySelector(".botao-enviar");
 
-elementoSelecionado.addEventListener("click", () => {
+// sintaxe basica - cria a funcao fora do addEventListener
 
-    document.body.style.backgroundColor = "#6e1f1f";
+// elementoSelecionado.addEventListener("tipodoevento", nomeDaFuncao);
+
+// function nomeDaFuncao() {
+//     return "clicou no botao";   
+// }
+
+// sintaxe com a funcao criada dentro do EventListener
+
+// elementoSelecionado.addEventListener("click", () => {
+
+//     document.body.style.backgroundColor = "#6e1f1f";
     
-});
+// });
 

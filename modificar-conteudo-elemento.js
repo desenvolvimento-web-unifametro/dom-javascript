@@ -8,14 +8,14 @@
 
 // 2 - Mudar o conteudo de um elemento HTML innerText ou textContent
 
-// textContent
+// textContent ou innerText
 // apenas o texto
 
 let elementoSelecionadoConta = document.querySelector(".link-cadastro"); 
 
 elementoSelecionadoConta.textContent = "mudei o textim, tu viu?"; 
 
-// innerText 
+// innerHTML 
 // HTML completo
 // Seguranca - Cuidado com insercao de XSS
 

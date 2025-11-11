@@ -6,14 +6,15 @@
 
 // 3 - Modificar estilizacao de um elemento HTML
 
-// seleciona o elemento
-let elementoSelecionadoQuerySelector = document.querySelector(".botao-enviar");
-
 // FORMA - propriedade style
 // Estilo Inline - Objeto CSSStyleDeclaration 
 
 // seleciona o elemento
 let elementoSelecionado = document.querySelector(".link-cadastro");
+
+// Modifica o estilo do elemento
+elementoSelecionado.style.color = "red";
+console.log(elementoSelecionado);
 
 
 // FORMA - propriedade classList: add, remove e toggle
@@ -21,27 +22,27 @@ let elementoSelecionado = document.querySelector(".link-cadastro");
 
 //  Adiciona uma classe
 
-elementoSelecionado.classList.add("classe-nova");
-console.log(elementoSelecionado);
+// elementoSelecionado.classList.add("classe-nova");
+// console.log(elementoSelecionado);
 
 
 // Remove uma classe
 
-elementoSelecionado.classList.remove("link-cadastro");
-console.log(elementoSelecionado);
+// elementoSelecionado.classList.remove("link-cadastro");
+// console.log(elementoSelecionado);
 
 
 // Adiciona uma classe se nao tiver, remove se tiver
 
-elementoSelecionado.classList.toggle("classe-ativa");
-console.log(elementoSelecionado);
+// elementoSelecionado.classList.toggle("classe-ativa");
+// console.log(elementoSelecionado);
 
-elementoSelecionado.addEventListener("click", () => {
+// elementoSelecionado.addEventListener("click", () => {
 
-   elementoSelecionado.classList.toggle("classe-ativa");
-   console.log("Classes do elementoSelecionado:", elementoSelecionado);
+//    elementoSelecionado.classList.toggle("classe-ativa");
+//    console.log("Classes do elementoSelecionado:", elementoSelecionado);
 
-});
+// });
 
 
 

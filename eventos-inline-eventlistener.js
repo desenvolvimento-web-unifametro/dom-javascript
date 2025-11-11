@@ -45,9 +45,9 @@ function nomeDaFuncao() {
 
 // const elementoSelecionado = document.querySelector(".botao-enviar");
 
-// elementoSelecionado.addEventListener("click", () => {
-//     console.log(`Meu nome é:`);
+elementoSelecionado.addEventListener("click", () => {
 
-//     document.body.style.backgroundColor = "#6e1f1f";
-// });
+    document.body.style.backgroundColor = "#6e1f1f";
+    
+});
 

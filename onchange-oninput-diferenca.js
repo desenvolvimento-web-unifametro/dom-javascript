@@ -1,20 +1,20 @@
 // seleciona o elemento que vai ser escutado
 const elementoSelecionadoEmail = document.querySelector('.pegar-email');
-const elementoSelecionado = document.querySelector('.pegar-senha');
+const elementoSelecionadoSenha = document.querySelector('.pegar-senha');
 
 elementoSelecionadoEmail.addEventListener('change', (evento) => {
     evento.preventDefault();
 
     // pega o valor do input
-    const inputEmail = elementoSelecionadoEmail.value;
+    const valorDoInputEmail = elementoSelecionadoEmail.value;
 
-    console.log('Input email:', inputEmail);
+    console.log('Input email:', valorDoInputEmail);
 });
 
-elementoSelecionado.addEventListener('input', () => {
+elementoSelecionadoSenha.addEventListener('input', () => {
 
     // pega o valor do input
-    const inputSenhaDinamico = elementoSelecionado.value;
+    const valorInputSenhaDinamico = elementoSelecionadoSenha.value;
 
-    console.log('Input senha dinamico:', inputSenhaDinamico);
+    console.log('Input senha dinamico:', valorInputSenhaDinamico);
 });

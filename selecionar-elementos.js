@@ -16,7 +16,7 @@ console.log("elemento selecionado", elementosSelecionadosPelaClasse);
 // querySelector x querySelectorAll
 
 let elementoSelecionadoQuerySelector = document.querySelector(".caixa-dos-dados");
-console.log("elemento selecionado", elementoSelecionadoQuerySelector);
+console.log("elemento selecionado", elementoSelecionadoQuerySelector); // utilizar esse quando for pegar o value
 
 let elementoSelecionadoQuerySelectorAll = document.querySelectorAll(".caixa-dos-dados");
 console.log("elemento selecionado", elementoSelecionadoQuerySelectorAll);
